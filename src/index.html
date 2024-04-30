@@ -9,78 +9,78 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Yeseva+One&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
-    <title>Slider</title>
+    <title>Bookshop</title>
 </head>
 
 <body>
-    <div class="wrapper">
-        <header class="header">
-            <nav class="header__hotelnavigation menu">
-                <ul class="menu__list"></ul>
+    <header class="header">
+        <div class="header__container _container">
+            <div class="header__logo">
+                <h2>Bookshop</h2>
+            </div>
+            <nav class="header__menu menu">
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a href="" class="menu__link">books</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="" class="menu__link">audiobooks</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="" class="menu__link">stationery & gifts</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="" class="menu__link">blog</a>
+                    </li>
+                </ul>
             </nav>
-        </header>
+            <div class="header__options options">
+                <div class="options__user">
+                    <a href="" class="options__link">
+                        <img src="./images/icons/user.svg" alt=""
+                            class="options__img">
+                    </a>
+                </div>
+                <div class="options__search">
+                    <a class="options__link">
+                        <img src="./images/icons/search.svg" alt=""
+                            class="options__lope">
+                    </a>
+                </div>
+                <div class="options__bag">
+                    <a class="options__link">
+                        <img src="./images/icons/shopbag.svg" alt=""
+                            class="options__bag">
+                        <img src="./images/icons/count.svg" alt="count"
+                            class="options__bagellipse">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="_container">
         <main>
             <section class="slider">
-                <div class="slider__description">
-                    <div class="slider__desr">
-                        <div class="slider__title projects">
-                            <h2 class="projects__title">Completed projects</h2>
-                            <hr class="projects__line" color="#E3B873" />
-                        </div>
-                        <div class="slider__text">
-                            Only a small part of the work
-                            performed by our company is presented on the
-                            site. For 14 years on in the construction
-                            market we have made happy more than 1000
-                            families
-                        </div>
+                <div class="slider__images"></div>
+                <div class="slider__dots"></div>
+                <a href="#" class="slider__additional slider__oldbook">
+                    <div class="slider__additional-text">change old book on new</div>
+                    <div class="slider__arrow">
+                        <img src="./images/icons/arrow.svg" alt="anchor">
                     </div>
-                    <div class="slider__options">
-                        <div class="slider__options-block variant">
-                            <div class="variant__option">
-                                <h3 class="variant__title">city:</h3>
-                                <p class="variant__city-descr description"></p>
-                            </div>
-                            <div class="variant__option">
-                                <h3 class="variant__title">apartment area:</h3>
-                                <p class="variant__area-descr description"></p>
-                            </div>
-                        </div>
-                        <div class="slider__options-block variant">
-                            <div class="variant__option ">
-                                <h3 class="variant__title">Repair time:
-                                </h3>
-                                <p
-                                    class="variant__repairtime-descr description">
-                                </p>
-                            </div>
-                            <div class="variant__option">
-                                <h3 class="variant__title">Repair Cost:
-                                </h3>
-                                <p
-                                    class="variant__repaircost-descr description">
-                                </p>
-                            </div>
-                        </div>
+                </a>
+                <a href="#" class="slider__additional slider__top100">
+                    <div class="slider__additional-text">top 100 books 2022</div>
+                    <div class="slider__arrow">
+                        <img src="./images/icons/arrow.svg" alt="anchor">
                     </div>
-                    <div class="slider__navigation">
-                        <div class="slider__arrow left">
-                            <img src="images/icons/leftArrow.svg" alt="previous"
-                                class="left__img">
-                        </div>
-                        <div class="slider__dots"></div>
-                        <div class="slider__arrow right">
-                            <img src="images/icons/rightArrow.svg" alt="next"
-                                class="left__img">
-                        </div>
-                    </div>
-                </div>
-                <div class="slider__variants">
-                    <div class="slider__images"></div>
-                </div>
+                </a>
             </section>
+            <section class="categories"></section>
+            <section class="cards"></section>
         </main>
     </div>
 </body>
