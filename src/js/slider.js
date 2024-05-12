@@ -73,7 +73,7 @@ function initSlider(options) {
 let sliderOptions = {
     dots: true,
     autoplay: true,
-    autoplayInterval: 7000
+    autoplayInterval: 5000
 };
 
 document.addEventListener("DOMContentLoaded", function () {
